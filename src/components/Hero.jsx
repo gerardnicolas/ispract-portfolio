@@ -11,7 +11,6 @@ const Hero = () => {
                     in which I am fascinated with latest technologies such as <span className='font-bold'>React</span>, <span className='font-bold'>Next.JS</span>, and <span className='font-bold'>Tailwind CSS</span>.</p>
                 </div>
             </div>
-            <hr className='text-center mx-auto w-[40rem]'/>
         </div>
         
         
