@@ -29,7 +29,7 @@ const Reflection = () => {
             <h1 className="text-center text-xl font-semibold text-gray-800 lg:text-xl">Reflection</h1>
             <p className="mt-4 text-center text-gray-500 dark:text-gray-300 text-xs pb-8">My lessons that I will truly cherish and remember.</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {reflections.map((reflection) => (
                     <div key={reflection.id} className='p-4 rounded shadow bg-slate-50'>
                     <h1 className='font-semibold'>{reflection.title}</h1>

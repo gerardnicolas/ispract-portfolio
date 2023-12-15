@@ -36,7 +36,7 @@ const AcadWork = () => {
         <div className="flex-col p-10">
             <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-xl">Projects</h1>
             <p className="text-center text-gray-500 dark:text-gray-300 text-xs mt-4 mb-8">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 {projects.map((project) => (
                 <div key={project.id} className="bg-white p-4 rounded shadow">
                     <h2 className="text-sm font-semibold mb-2">{project.title}</h2>
