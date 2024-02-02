@@ -29,13 +29,20 @@ const projects = [
         languages: 'HTML, CSS, Javascript, Firebase',
         link: 'https://my-grocerylist-ged.netlify.app/'
     },
+    { 
+        id: 5, 
+        title: 'Youtube to MP3 Converter', 
+        description: 'Converts your youtube link to mp3.',
+        languages: 'HTML, CSS, Javascript, React, TailwindCSS, Youtube MP3 API',
+        link: 'https://yt-to-mp3-converter-three.vercel.app/'
+    },
 ];
 
 const AcadWork = () => {
     return (
         <div className="flex-col p-10">
-            <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-xl">Projects</h1>
-            <p className="text-center text-gray-500 dark:text-gray-300 text-xs mt-4 mb-8">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
+            <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-2xl">Projects</h1>
+            <p className="text-center text-gray-500 dark:text-gray-300 text-xs mt-4 mb-8 lg:text-base">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 {projects.map((project) => (
                 <div key={project.id} className="bg-white p-4 rounded shadow">

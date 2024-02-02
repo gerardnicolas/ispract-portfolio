@@ -26,8 +26,8 @@ const reflections = [
 const Reflection = () => {
     return (
         <div className='bg-slate-100 p-10'>
-            <h1 className="text-center text-xl font-semibold text-gray-800 lg:text-xl">Reflection</h1>
-            <p className="mt-4 text-center text-gray-500 dark:text-gray-300 text-xs pb-8">My lessons that I will truly cherish and remember.</p>
+            <h1 className="text-center text-xl font-semibold text-gray-800 lg:text-2xl">Reflection</h1>
+            <p className="mt-4 text-center text-gray-500 dark:text-gray-300 text-xs pb-8 lg:text-base">My lessons that I will truly cherish and remember.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {reflections.map((reflection) => (

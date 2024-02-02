@@ -5,9 +5,9 @@ const Learnings = () => {
         <div className="bg-slate-200">
             <section className="bg-slate-100 dark:bg-gray-900">
                 <div className="container mx-auto px-6 py-10">
-                    <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-xl">Internship Experience</h1>
+                    <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-2xl md:text-xl">Internship Experience</h1>
 
-                    <p className="mt-4 text-center text-gray-500 dark:text-gray-300 text-xs">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
+                    <p className="mt-4 text-center text-gray-500 dark:text-gray-300 text-xs lg:text-base">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
 
                     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3 xl:mt-12 xl:grid-cols-3 xl:gap-12">
                     <div>
