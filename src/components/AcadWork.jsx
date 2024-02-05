@@ -5,7 +5,11 @@ const projects = [
         id: 1, 
         title: 'Random Password Generator', 
         description: 'Generates random passwords, accepts a password length input for your password length preference.',
-        languages: 'HTML, CSS, Javascript',
+        languages: [
+                    'HTML, ', 
+                    'CSS, ', 
+                    'Javascript'
+                    ],
         link: 'https://randompasswordgenerator-ged.vercel.app/'
     },
     { 
@@ -41,15 +45,17 @@ const projects = [
 const AcadWork = () => {
     return (
         <div className="flex-col p-10">
-            <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-2xl">Projects</h1>
-            <p className="text-center text-gray-500 dark:text-gray-300 text-xs mt-4 mb-8 lg:text-base">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-2xl md:text-xl">Projects</h1>
+            <p className="mt-4 text-center text-gray-500 dark:text-gray-300 lg:text-base">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 p-10">
                 {projects.map((project) => (
                 <div key={project.id} className="bg-white p-4 rounded shadow">
-                    <h2 className="text-sm font-semibold mb-2">{project.title}</h2>
-                    <p className="text-gray-600 text-xs">{project.description}</p>
-                    <p className='text-xs mt-2 font-semibold'><span className='font-normal'>Created using:</span> {project.languages}</p>
-                    <a href={project.link} className='text-xs font-semibold text-blue-500' target='_blank' rel='noreferrer'>Link</a>
+                    <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
+                    <p className="text-gray-600 text-base">{project.description}</p>
+                    <p className='text-sm mt-2 font-semibold mb-5'><span className='font-normal'>Created using: </span> 
+                    {project.languages}
+                    </p>
+                    <a href={project.link} className='border-2 rounded-md px-3 py-2 border-blue-600 bg-blue-600 text-sm text-white hover:bg-blue-500 hover:border-blue-500 transition hover:delay-150 font-bold' target='_blank' rel='noreferrer'>Link</a>
                 </div>
                 ))}
             </div>
