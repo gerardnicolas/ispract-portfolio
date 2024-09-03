@@ -46,7 +46,7 @@ const AcadWork = () => {
     return (
         <div className="flex-col p-10">
             <h1 className="text-center text-xl font-semibold capitalize text-gray-800 dark:text-white lg:text-2xl md:text-xl">Projects</h1>
-            <p className="mt-4 text-center text-gray-500 dark:text-gray-300 lg:text-base">During my internship, I had the opportunity to work as a part of the Quality Assurance team.</p>
+            <p className="mt-4 text-center text-gray-500 dark:text-gray-300 lg:text-base">{`This is a list of projects that I've made.`}</p>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 p-10">
                 {projects.map((project) => (
                 <div key={project.id} className="bg-white p-4 rounded shadow">

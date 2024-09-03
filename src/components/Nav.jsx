@@ -3,7 +3,7 @@ import React from 'react';
 function Nav () {
     return (
         <div className='flex p-4 bg-tw-blue font-inter text-white justify-between text-base'>
-            <p className='flex text-lg items-center font-semibold'>ged.dev</p>
+            <p className='flex text-lg items-center font-semibold select-none'>ged.dev</p>
             <div className='flex items-center'>
                 <a href="https://www.linkedin.com/in/gerard-nicolas-4287531a0/" target="_blank" rel='noreferrer' className='text-xs'> 
                     <img src="/assets/linkedin-logo.webp" alt="LinkedIn Logo" className="w-8"/>
