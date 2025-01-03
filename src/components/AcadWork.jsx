@@ -37,9 +37,16 @@ const projects = [
         id: 5, 
         title: 'Youtube to MP3 Converter', 
         description: 'Converts your youtube link to mp3.',
-        languages: 'HTML, CSS, Javascript, React, TailwindCSS, Youtube MP3 API',
+        languages: 'React, TailwindCSS, Youtube MP3 API',
         link: 'https://yt-to-mp3-converter-three.vercel.app/'
     },
+    {
+        id: 6,
+        title: 'RNJ Building Website',
+        description: 'A simple website for a local commercial building.',
+        languages: 'React, TailwindCSS',
+        link: 'https://rnjbldg1.vercel.app/'
+    }
 ];
 
 const AcadWork = () => {
@@ -49,7 +56,7 @@ const AcadWork = () => {
             <p className="mt-4 text-center text-gray-500 dark:text-gray-300 lg:text-base">{`This is a list of projects that I've made.`}</p>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 p-10">
                 {projects.map((project) => (
-                <div key={project.id} className="bg-white p-4 rounded shadow">
+                <div key={project.id} className="bg-slate-100 p-4 rounded shadow-lg">
                     <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
                     <p className="text-gray-600 text-base">{project.description}</p>
                     <p className='text-sm mt-2 font-semibold mb-5'><span className='font-normal'>Created using: </span> 
