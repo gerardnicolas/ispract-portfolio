@@ -1,51 +1,58 @@
 import React from 'react';
 
 const projects = [
+    // { 
+    //     id: 1, 
+    //     title: 'Random Password Generator', 
+    //     description: 'Generates random passwords, accepts a password length input for your password length preference.',
+    //     languages: [
+    //                 'HTML, ', 
+    //                 'CSS, ', 
+    //                 'Javascript'
+    //                 ],
+    //     link: 'https://randompasswordgenerator-ged.vercel.app/'
+    // },
+    // { 
+    //     id: 2, 
+    //     title: 'Metric/Imperial Unit Converter', 
+    //     description: 'A metric unit converter that allows you to convert your desired input value in Length (Meter/Feet), Volume (Liters/Gallons), and Mass (Kilograms/Pounds).',
+    //     languages: 'HTML, CSS, Javascript',
+    //     link: 'https://unit-converter-eta.vercel.app/'
+    // },
+    // { 
+    //     id: 3, 
+    //     title: 'Color Scheme Generator', 
+    //     description: 'Generates color schemes to help users choose colors that work well together for various creative projects.',
+    //     languages: 'HTML, CSS, Javascript',
+    //     link: 'https://color-scheme-generator-six.vercel.app/'
+    // },
+    // { 
+    //     id: 4, 
+    //     title: 'My Grocery List', 
+    //     description: 'A native application which functions as a grocery list where users are able to add and delete their inputs.',
+    //     languages: 'HTML, CSS, Javascript, Firebase',
+    //     link: 'https://my-grocerylist-ged.netlify.app/'
+    // },
     { 
         id: 1, 
-        title: 'Random Password Generator', 
-        description: 'Generates random passwords, accepts a password length input for your password length preference.',
-        languages: [
-                    'HTML, ', 
-                    'CSS, ', 
-                    'Javascript'
-                    ],
-        link: 'https://randompasswordgenerator-ged.vercel.app/'
-    },
-    { 
-        id: 2, 
-        title: 'Metric/Imperial Unit Converter', 
-        description: 'A metric unit converter that allows you to convert your desired input value in Length (Meter/Feet), Volume (Liters/Gallons), and Mass (Kilograms/Pounds).',
-        languages: 'HTML, CSS, Javascript',
-        link: 'https://unit-converter-eta.vercel.app/'
-    },
-    { 
-        id: 3, 
-        title: 'Color Scheme Generator', 
-        description: 'Generates color schemes to help users choose colors that work well together for various creative projects.',
-        languages: 'HTML, CSS, Javascript',
-        link: 'https://color-scheme-generator-six.vercel.app/'
-    },
-    { 
-        id: 4, 
-        title: 'My Grocery List', 
-        description: 'A native application which functions as a grocery list where users are able to add and delete their inputs.',
-        languages: 'HTML, CSS, Javascript, Firebase',
-        link: 'https://my-grocerylist-ged.netlify.app/'
-    },
-    { 
-        id: 5, 
         title: 'Youtube to MP3 Converter', 
         description: 'Converts your youtube link to mp3.',
         languages: 'React, TailwindCSS, Youtube MP3 API',
         link: 'https://yt-to-mp3-converter-three.vercel.app/'
     },
     {
-        id: 6,
+        id: 2,
         title: 'RNJ Building Website',
         description: 'A simple website for a local commercial building.',
         languages: 'React, TailwindCSS',
         link: 'https://rnjbldg1.vercel.app/'
+    },
+    {
+        id: 3,
+        title: 'SauceDemo Test Automation (Pytest + Selenium)',
+        description: 'Automated test suite for saucedemo.com, built using Python, Pytest, and Selenium WebDriver.',
+        languages: 'Python, Pytest, Selenium WebDriver',
+        link: 'https://github.com/gerardnicolas/saucedemo-pytest-automation'
     }
 ];
 
