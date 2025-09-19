@@ -19,14 +19,12 @@ return (
 
             <p className="my-5 md:text-base">
                 Hi there! I'm Gerard Nicolas, a recent graduate with a Bachelor’s
-                degree in Information Systems. I'm passionate about creating beautiful
-                and functional user interfaces. Currently, I'm focusing on becoming a
-                front-end developer with the ultimate goal of mastering full-stack
-                development. My technical skills include{' '}
-                <span className="font-bold">HTML, CSS, and JavaScript</span>, and I
-                have hands-on experience with <span className="font-bold">React</span>{' '}
-                and <span className="font-bold">TailwindCSS</span>. I'm also expanding
-                my knowledge by learning <span className="font-bold">Next.js</span>.
+                degree in Information Systems. I'm passionate about ensuring software is reliable, maintainable, and high-quality. 
+                Currently, I'm focusing on strengthening my automation and testing skills, with the ultimate goal of becoming a well-rounded QA engineer. 
+                My technical skills include{' '}
+                <span className="font-bold">Python, Selenium WebDriver, Pytest, Automation Framework Design, Page Object Model (POM), and Test Reporting.</span> I
+                also have hands-on experience with <span className="font-bold">React</span>{' '}
+                and <span className="font-bold">TailwindCSS</span>. 
             </p>
             <p>
                 I'm excited to connect with like-minded professionals and contribute
